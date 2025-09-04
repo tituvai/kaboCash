@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+
+  --color-logoBg: #F4F5F7;
+  --color-textC: #080808;
+  --color-inputBg: #F4F5F7;
+
+  /* Font Family Part  */
+  --font-poppins: "Poppins","sans-serif";
+  --font-outfit: "Outfit","sans-serif";
+
+}
