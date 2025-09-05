@@ -5,6 +5,7 @@ import RootLayout from './components/layout/RootLayout'
 import Login from './components/pages/Login'
 import Home from './components/pages/Home'
 import SendHome from './components/pages/sendMoney/SendHome'
+import PriyoSendMony from './components/pages/sendMoney/PriyoSendMony'
 function App() {
  
 
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<RootLayout/>}>
        <Route path='home' element={<Home/>}/> 
        <Route path='sendHome' element={<SendHome/>}/> 
+       <Route path='priyoSendMony' element={<PriyoSendMony/>}/> 
       </Route>
     </Routes>
    </>

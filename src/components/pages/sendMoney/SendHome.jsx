@@ -5,6 +5,7 @@ import Hadding from '../../Hadding';
 import { TbCoinTaka } from "react-icons/tb";
 import { MdGroups } from "react-icons/md";
 import { BiUser } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
 const SendHome = () => {
   return (
@@ -18,8 +19,10 @@ const SendHome = () => {
         <div className="py-10 relative">
           <div className="flex items-center justify-between">
             <div className="w-[32%] bg-white border-1 border-stone-200 px-2 h-[120px] flex flex-col justify-center rounded-lg">
+              <Link to={'/priyoSendMony'}>
                 <FaFileInvoiceDollar className='size-6 text-green-500'/>
                 <Hadding className={'text-sm text-textC font-outfit font-normal pt-2'} text={'Priyo Numbers (1)'} as={'h5'}/>
+            </Link>
             </div>
             <div className="w-[32%] bg-white border-1 border-stone-200 px-2 h-[120px] flex flex-col justify-center rounded-lg">
                 <TbCoinTaka className='size-7 text-green-500'/>
