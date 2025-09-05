@@ -1,6 +1,7 @@
 import React from 'react'
 import Topbar from '../../Topbar'
 import Hadding from '../../Hadding'
+import { Link } from 'react-router-dom'
 
 const PriyoSendMony = () => {
   return (
@@ -29,8 +30,10 @@ const PriyoSendMony = () => {
                 <div className="flex items-center gap-x-3">
                     <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center"><span className='text-lg text-white font-poppins font-bold'>T</span></div>
                     <div className="">
+                        <Link to={'/conformSendMonye'}>
                         <Hadding className={'text-sm text-textC font-poppins font-normal'} text={'Titu Sarkar'} as={'h5'}/>
                         <Hadding className={'text-sm text-stone-500 font-outfit font-normal'} text={'01761110819'} as={'h5'}/>
+                        </Link>
                     </div>
                 </div>
                 <button className='text-base text-red-500 font-poppins font-normal'>Remov</button>

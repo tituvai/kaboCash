@@ -6,6 +6,7 @@ import Login from './components/pages/Login'
 import Home from './components/pages/Home'
 import SendHome from './components/pages/sendMoney/SendHome'
 import PriyoSendMony from './components/pages/sendMoney/PriyoSendMony'
+import ConformSendMonye from './components/pages/sendMoney/ConformSendMonye'
 function App() {
  
 
@@ -17,6 +18,7 @@ function App() {
        <Route path='home' element={<Home/>}/> 
        <Route path='sendHome' element={<SendHome/>}/> 
        <Route path='priyoSendMony' element={<PriyoSendMony/>}/> 
+       <Route path='conformSendMonye' element={<ConformSendMonye/>}/> 
       </Route>
     </Routes>
    </>
