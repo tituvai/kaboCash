@@ -7,7 +7,7 @@ const PriyoSendMony = () => {
   return (
     <>
     <Topbar topText={'Priyo Number'}/>
-    <div className="lg:w-[450px] bg-logoBg m-auto p-4 relative">
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4 pb-[400px] relative">
         <div className="relative pb-4">
             <Hadding className={'text-sm text-stone-500 font-outfit font-normal'} text={'Free Monthly Transaction Limit'} as={'h6'}/>
             <div className="lg:w-[450px] w-screen h-[2px] bg-stone-300 absolute bottom-0 -left-4"></div>

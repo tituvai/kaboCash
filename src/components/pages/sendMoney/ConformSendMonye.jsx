@@ -7,7 +7,7 @@ const ConformSendMonye = () => {
   return (
     <>
     <Topbar topText={'Send Money'}/>
-    <div className="lg:w-[450px] bg-logoBg m-auto p-4 relative">
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4 pb-[200px] relative">
         <div className="pb-5 relative">
             <Hadding className={'text-sm text-stone-500 font-poppins font-normal'} text={'Recipient'} as={'h6'}/>
             <div className="flex items-center gap-x-3 pt-5">
