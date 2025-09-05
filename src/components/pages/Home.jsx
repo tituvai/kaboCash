@@ -42,7 +42,7 @@ const Home = () => {
   return (
     <>
     <Header/>
-    <div className="lg:w-[450px] bg-logoBg m-auto p-4 h-screen">
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4">
       <div className="flex items-center justify-between flex-wrap gap-y-10 pb-10">
         <div className="w-[25%] text-center">
           <Link to={'/sendHome'}>
