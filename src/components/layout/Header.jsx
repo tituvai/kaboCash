@@ -7,7 +7,7 @@ import Hadding from '../Hadding';
 const Header = () => {
   return (
     <>
-    <div className="w-[450px] bg-logoBg m-auto p-4">
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4">
         <div className="flex justify-between items-center">
             <div className="flex items-center gap-x-5">
             <Image className={'w-10 h-10 rounded-full bg-green-200'} imgSrc={kabo}/>

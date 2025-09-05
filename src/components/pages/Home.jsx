@@ -37,7 +37,7 @@ const Home = () => {
   // Auto Play Slider End
   return (
     <>
-    <div className="w-[450px] bg-logoBg m-auto p-4">
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4">
       <div className="flex items-center justify-between flex-wrap gap-y-10 pb-10">
         <div className="w-[25%] text-center">
           <HiMiniDocumentCurrencyDollar className='m-auto size-6 text-green-700'/>
@@ -89,7 +89,7 @@ const Home = () => {
 
       <div className="py-10">
         <Slider {...setting}>
-       <div className="w-[300px]">
+       <div className="lg:w-[300px]">
         <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
           <div className="flex items-center gap-x-5">
             <div className="">
@@ -111,7 +111,7 @@ const Home = () => {
        </div>
 
 
-         <div className="w-[300px]">
+         <div className="lg:w-[300px]">
           <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
           <div className="flex items-center gap-x-5">
             <div className="">
@@ -131,7 +131,7 @@ const Home = () => {
         </div>
         </div>
          </div>
-         <div className="w-[300px]">
+         <div className="lg:w-[300px]">
           <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
           <div className="flex items-center gap-x-5">
             <div className="">
