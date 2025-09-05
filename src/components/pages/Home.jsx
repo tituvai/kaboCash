@@ -15,6 +15,8 @@ import Slider from "react-slick";
 
 import { TbCoinTaka } from "react-icons/tb";
 import { GrMagic } from "react-icons/gr";
+import Header from "../layout/Header";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const settings = {
@@ -28,20 +30,25 @@ const Home = () => {
   // Auto Play Slider Part 
 
     const setting = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
   // Auto Play Slider End
   return (
     <>
-    <div className="lg:w-[450px] bg-logoBg m-auto p-4">
+    <Header/>
+    <div className="lg:w-[450px] bg-logoBg m-auto p-4 h-screen">
       <div className="flex items-center justify-between flex-wrap gap-y-10 pb-10">
         <div className="w-[25%] text-center">
+          <Link to={'/sendHome'}>
           <HiMiniDocumentCurrencyDollar className='m-auto size-6 text-green-700'/>
           <Hadding className={'text-xs text-textC font-poppins font-normal pt-2'} text={'Send Money'} as={'h4'}/>
+          </Link>
         </div>
         <div className="w-[25%] text-center">
           <CashOut className={'m-auto size-8'}/>
@@ -88,9 +95,9 @@ const Home = () => {
       {/* Offer Part Start  */}
 
       <div className="py-10">
-        <Slider {...setting}>
-       <div className="lg:w-[300px]">
-        <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
+          <Slider {...setting} className="-mx-4">
+       <div className="p-4">
+        <div className="flex items-center justify-between p-5 rounded-md bg-white">
           <div className="flex items-center gap-x-5">
             <div className="">
               <TbCoinTaka className="size-10 text-green-500"/>
@@ -111,8 +118,8 @@ const Home = () => {
        </div>
 
 
-         <div className="lg:w-[300px]">
-          <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
+         <div className="p-4">
+          <div className="flex items-center justify-between p-5 rounded-md bg-white">
           <div className="flex items-center gap-x-5">
             <div className="">
               <TbCoinTaka className="size-10 text-green-500"/>
@@ -131,8 +138,8 @@ const Home = () => {
         </div>
         </div>
          </div>
-         <div className="lg:w-[300px]">
-          <div className="flex items-center justify-between w-[300px] p-5  shadow-2xl rounded-md">
+         <div className="p-4">
+          <div className="flex items-center justify-between p-5 rounded-md bg-white">
           <div className="flex items-center gap-x-5">
             <div className="">
               <TbCoinTaka className="size-10 text-green-500"/>

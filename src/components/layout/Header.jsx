@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '/src/components/Image'
-import kabo from '/src/assets/logo.png'
+import kabo from '/src/assets/kabo.png'
 import { TbCoinTakaFilled } from "react-icons/tb";
 import Hadding from '../Hadding';
 

@@ -11,7 +11,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="lg:w-[450px] bg-logoBg m-auto py-8 px-4">
+      <div className="lg:w-[450px] bg-logoBg m-auto py-8 px-4 h-screen">
     <div className="text-center relative">
       <Image className={'m-auto'} imgSrc={reage} imgAlt={'Rectangle.png'}/>
       <Image className={'absolute top-15 left-1/2 -translate-1/2'} imgSrc={logo} imgAlt={'logo.png'}/>
