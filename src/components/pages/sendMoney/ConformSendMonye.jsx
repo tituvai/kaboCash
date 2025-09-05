@@ -23,14 +23,14 @@ const ConformSendMonye = () => {
         <div className="relative py-5">
             <Hadding className={'text-base text-stone-500 font-outfit font-medium'} text={'Amount'} as={'h4'}/>
             <div className="text-center py-5">
-                <input className='outline-0 p-2 text-2xl text-pink-600 font-poppins font-semibold text-center' type="text" placeholder='00.00'/>
+                <input className='w-[200px] outline-0 p-2 text-2xl text-pink-600 font-poppins font-semibold text-center' type="text" placeholder='00.00'/>
             </div>
             <Hadding className={'text-sm text-stone-700 font-outfit font-normal text-center'} text={<><span>Available Blanace</span> <span className='text-textC'>৳ 33.5</span></>} as={'h4'}/>
             <div className="lg:w-[450px] w-screen h-[3px] bg-stone-200 absolute bottom-0 -left-4"></div>
         </div>
-        {/* <div className="absolute bottom-1 left-1/2 -translate-x-1/2">
+        <div className="absolute bottom-1 left-1/2 -translate-x-1/2">
             <button className='lg:w-[420px] w-screen text-base text-white font-outfit font-medium text-center bg-pink-600 py-2 '>Proceed</button>
-        </div> */}
+        </div>
     </div>
     </>
   )
