@@ -1,7 +1,7 @@
 import React from 'react'
 import Topbar from '../../Topbar'
 import Hadding from '../../Hadding'
-import Button from '../../Button'
+
 
 const ConformSendMonye = () => {
   return (
@@ -28,7 +28,9 @@ const ConformSendMonye = () => {
             <Hadding className={'text-sm text-stone-700 font-outfit font-normal text-center'} text={<><span>Available Blanace</span> <span className='text-textC'>৳ 33.5</span></>} as={'h4'}/>
             <div className="lg:w-[450px] w-screen h-[3px] bg-stone-200 absolute bottom-0 -left-4"></div>
         </div>
-        <button className='lg:w-[420px] w-screen text-base text-white font-outfit font-medium text-center bg-pink-600 py-2 absolute bottom-1 left-1/2 -translate-x-1/2'>Proceed</button>
+        <div className="absolute bottom-1 left-1/2 -translate-x-1/2">
+            <button className='lg:w-[420px] w-screen text-base text-white font-outfit font-medium text-center bg-pink-600 py-2 '>Proceed</button>
+        </div>
     </div>
     </>
   )
