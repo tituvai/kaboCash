@@ -37,6 +37,7 @@ const Home = () => {
     autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
+  
   };
   // Auto Play Slider End
   return (
